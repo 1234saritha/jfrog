@@ -4,7 +4,7 @@ node {
     def rtMaven = Artifactory.newMavenBuild()
    
    stage('Code Checkout') { 
-     git credentialsId: 'githubID', url: 'https://github.com/itrainjaquar/maven-examples.git'
+     git credentialsId: 'githubID', url: 'https://github.com/1234saritha/jfrog.git'
      
     }
    stage('Build') {
